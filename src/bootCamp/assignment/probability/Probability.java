@@ -27,8 +27,8 @@ class Probability {
     }
 
     Probability or(Probability probability) throws Exception {
-        Probability andProbability = this.and(probability);
-        return new Probability(UPPER_BOUND - andProbability.probability);
+        Probability combinedProbability = this.not().and(probability.not());
+        return combinedProbability.not();
     }
 
     @Override

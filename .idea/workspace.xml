@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b37bee1c-d0d5-4713-8157-73f82e3d1e64" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/assignment/probability/Probability.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment/shapes/Dimension.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment/shapes/Rectangle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment/shapes/Shape.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment/shapes/Square.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bootCamp/assignment/probability/Probability.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bootCamp/assignment/probability/Probability.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,40 +12,71 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bootCamp/assignment/lengthComparision/Unit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="e#124#125#0" expanded="true" />
+                <element signature="e#158#159#0" expanded="true" />
+                <element signature="e#316#317#0" expanded="true" />
+                <element signature="e#367#368#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/bootCamp/assignment/probability/ProbabilityTest.java">
+        <entry file="file://$PROJECT_DIR$/test/bootCamp/assignment/lengthComparision/QuantityTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+            <state relative-caret-position="462">
+              <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bootCamp/assignment/probability/Probability.java">
+        <entry file="file://$PROJECT_DIR$/src/bootCamp/assignment/lengthComparision/Quantity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bootCamp/assignment/shapes/Dimension.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+            <state relative-caret-position="198">
+              <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/bootCamp/assignment/probability/Probability.java" />
+        <option value="$PROJECT_DIR$/test/bootCamp/assignment/lengthComparision/LengthTest.java" />
+        <option value="$PROJECT_DIR$/src/bootCamp/assignment/lengthComparision/LengthInInches.java" />
+        <option value="$PROJECT_DIR$/src/bootCamp/assignment/lengthComparision/LengthInFeet.java" />
+        <option value="$PROJECT_DIR$/src/bootCamp/assignment/lengthComparision/Length.java" />
+        <option value="$PROJECT_DIR$/src/bootCamp/assignment/lengthComparision/Unit.java" />
+        <option value="$PROJECT_DIR$/test/bootCamp/assignment/lengthComparision/QuantityTest.java" />
+        <option value="$PROJECT_DIR$/src/bootCamp/assignment/lengthComparision/Quantity.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1440" />
     <option name="height" value="825" />
@@ -85,6 +113,13 @@
               <item name="bootCamp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="assignment" type="462c0819:PsiDirectoryNode" />
+              <item name="lengthComparision" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bootCamp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bootCamp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assignment" type="462c0819:PsiDirectoryNode" />
               <item name="probability" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -104,6 +139,13 @@
               <item name="bootCamp" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="assignment" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bootCamp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bootCamp" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="assignment" type="462c0819:PsiDirectoryNode" />
+              <item name="lengthComparision" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bootCamp" type="b2602c69:ProjectViewProjectNode" />
@@ -131,14 +173,22 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552981152053" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553158996029" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="bootCamp.assignment.lengthComparision" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="bootCamp.assignment.shapes" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -153,40 +203,93 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.bootCamp.assignment in bootCamp">
-    <configuration name="ProbabilityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.QuantityTest">
+    <configuration name="QuantityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bootCamp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bootCamp.assignment.probability.*" />
+          <option name="PATTERN" value="bootCamp.assignment.lengthComparision.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="bootCamp.assignment.probability" />
-      <option name="MAIN_CLASS_NAME" value="bootCamp.assignment.probability.ProbabilityTest" />
+      <option name="PACKAGE_NAME" value="bootCamp.assignment.lengthComparision" />
+      <option name="MAIN_CLASS_NAME" value="bootCamp.assignment.lengthComparision.QuantityTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bootCamp.assignment in bootCamp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="QuantityTest.shouldReturnFalseForInvalidComparisionForFeetAndInch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bootCamp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bootCamp.assignment.*" />
+          <option name="PATTERN" value="bootCamp.assignment.lengthComparision.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="bootCamp.assignment" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="PACKAGE_NAME" value="bootCamp.assignment.lengthComparision" />
+      <option name="MAIN_CLASS_NAME" value="bootCamp.assignment.lengthComparision.QuantityTest" />
+      <option name="METHOD_NAME" value="shouldReturnFalseForInvalidComparisionForFeetAndInch" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuantityTest.shouldReturnFalseForInvalidComparisionForInchAndCentimeter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bootCamp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bootCamp.assignment.lengthComparision.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bootCamp.assignment.lengthComparision" />
+      <option name="MAIN_CLASS_NAME" value="bootCamp.assignment.lengthComparision.QuantityTest" />
+      <option name="METHOD_NAME" value="shouldReturnFalseForInvalidComparisionForInchAndCentimeter" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuantityTest.shouldReturnTrueForValidComparision" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bootCamp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bootCamp.assignment.lengthComparision.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bootCamp.assignment.lengthComparision" />
+      <option name="MAIN_CLASS_NAME" value="bootCamp.assignment.lengthComparision.QuantityTest" />
+      <option name="METHOD_NAME" value="shouldReturnTrueForValidComparision" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuantityTest.shouldReturnTrueForValidComparisionForFeetAndInch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bootCamp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bootCamp.assignment.lengthComparision.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bootCamp.assignment.lengthComparision" />
+      <option name="MAIN_CLASS_NAME" value="bootCamp.assignment.lengthComparision.QuantityTest" />
+      <option name="METHOD_NAME" value="shouldReturnTrueForValidComparisionForFeetAndInch" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.bootCamp.assignment in bootCamp" />
-        <item itemvalue="JUnit.ProbabilityTest" />
+        <item itemvalue="JUnit.QuantityTest" />
+        <item itemvalue="JUnit.QuantityTest.shouldReturnFalseForInvalidComparisionForFeetAndInch" />
+        <item itemvalue="JUnit.QuantityTest.shouldReturnFalseForInvalidComparisionForInchAndCentimeter" />
+        <item itemvalue="JUnit.QuantityTest.shouldReturnTrueForValidComparisionForFeetAndInch" />
+        <item itemvalue="JUnit.QuantityTest.shouldReturnTrueForValidComparision" />
       </list>
     </recent_temporary>
   </component>
@@ -203,46 +306,103 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="QuantityTest_shouldReturnFalseForInvalidComparisionForFeetAndInch - 2019.03.21 at 12h 32m 02s.xml">
+      <configuration name="QuantityTest.shouldReturnFalseForInvalidComparisionForFeetAndInch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QuantityTest_shouldReturnFalseForInvalidComparisionForFeetAndInch - 2019.03.21 at 12h 32m 29s.xml">
+      <configuration name="QuantityTest.shouldReturnFalseForInvalidComparisionForFeetAndInch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QuantityTest - 2019.03.21 at 12h 36m 14s.xml">
+      <configuration name="QuantityTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QuantityTest_shouldReturnFalseForInvalidComparisionForFeetAndInch - 2019.03.21 at 14h 09m 08s.xml">
+      <configuration name="QuantityTest.shouldReturnFalseForInvalidComparisionForFeetAndInch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QuantityTest - 2019.03.21 at 14h 10m 11s.xml">
+      <configuration name="QuantityTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QuantityTest - 2019.03.21 at 14h 10m 31s.xml">
+      <configuration name="QuantityTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QuantityTest - 2019.03.21 at 14h 11m 12s.xml">
+      <configuration name="QuantityTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QuantityTest_shouldReturnFalseForInvalidComparisionForInchAndCentimeter - 2019.03.21 at 14h 16m 05s.xml">
+      <configuration name="QuantityTest.shouldReturnFalseForInvalidComparisionForInchAndCentimeter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QuantityTest - 2019.03.21 at 14h 16m 10s.xml">
+      <configuration name="QuantityTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QuantityTest - 2019.03.21 at 14h 29m 23s.xml">
+      <configuration name="QuantityTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="825" extended-state="6" />
+    <frame x="0" y="22" width="1440" height="825" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2532189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3287858" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3287858" />
+      <window_info anchor="right" x="0" y="0" width="310" height="625" id="Documentation" side_tool="true" weight="0.3297568" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2532189" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3287858" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.3287858" />
+      <window_info anchor="right" x="0" y="0" width="310" height="625" id="Documentation" order="0" side_tool="true" weight="0.3297568" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test/bootCamp/assignment/shapes">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bootCamp/assignment/probability/Probability.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bootCamp/assignment/shapes/Dimension.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -251,10 +411,104 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/bootCamp/assignment/probability/Probability.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-209">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bootCamp/assignment/lengthComparision/LengthInFeet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+          <folding>
+            <element signature="e#145#146#0" expanded="true" />
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#215#216#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bootCamp/assignment/lengthComparision/LengthInInches.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#146#147#0" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bootCamp/assignment/lengthComparision/Length.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding>
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bootCamp/assignment/shapes/Shape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/bootCamp/assignment/probability/ProbabilityTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+        <state relative-caret-position="-117">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/bootCamp/assignment/lengthComparision/LengthTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bootCamp/assignment/lengthComparision/Unit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#124#125#0" expanded="true" />
+            <element signature="e#158#159#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bootCamp/assignment/lengthComparision/Quantity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/bootCamp/assignment/lengthComparision/QuantityTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -315,6 +569,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
