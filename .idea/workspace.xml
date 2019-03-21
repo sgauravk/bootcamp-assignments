@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="b37bee1c-d0d5-4713-8157-73f82e3d1e64" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bootCamp/assignment/probability/Probability.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bootCamp/assignment/probability/Probability.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bootCamp/bootCamp/assignment/lengthComparision/Quantity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bootCamp/bootCamp/assignment/lengthComparision/Unit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/bootCamp/bootCamp/assignment/lengthComparision/QuantityTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bootCamp/assignment/lengthComparision/Quantity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bootCamp/assignment/measurementComparision/Quantity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bootCamp/assignment/lengthComparision/Unit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bootCamp/assignment/measurementComparision/Unit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/bootCamp/assignment/lengthComparision/QuantityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/bootCamp/assignment/measurementComparision/QuantityTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,28 +16,32 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="bootCamp" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bootCamp/assignment/lengthComparision/Unit.java">
+        <entry file="file://$PROJECT_DIR$/src/bootCamp/assignment/measurementComparision/Unit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="328">
+              <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
               <folding>
-                <element signature="e#124#125#0" expanded="true" />
-                <element signature="e#158#159#0" expanded="true" />
-                <element signature="e#316#317#0" expanded="true" />
-                <element signature="e#367#368#0" expanded="true" />
+                <element signature="e#677#678#0" expanded="true" />
+                <element signature="e#722#723#0" expanded="true" />
+                <element signature="e#769#770#0" expanded="true" />
+                <element signature="e#810#811#0" expanded="true" />
+                <element signature="e#870#871#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/bootCamp/assignment/lengthComparision/QuantityTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/bootCamp/assignment/measurementComparision/QuantityTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+            <state relative-caret-position="270">
+              <caret line="91" column="50" selection-start-line="91" selection-start-column="50" selection-end-line="91" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -40,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bootCamp/assignment/lengthComparision/Quantity.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/bootCamp/assignment/measurementComparision/Quantity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+            <state relative-caret-position="181">
+              <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -70,9 +79,12 @@
         <option value="$PROJECT_DIR$/src/bootCamp/assignment/lengthComparision/LengthInInches.java" />
         <option value="$PROJECT_DIR$/src/bootCamp/assignment/lengthComparision/LengthInFeet.java" />
         <option value="$PROJECT_DIR$/src/bootCamp/assignment/lengthComparision/Length.java" />
-        <option value="$PROJECT_DIR$/src/bootCamp/assignment/lengthComparision/Unit.java" />
-        <option value="$PROJECT_DIR$/test/bootCamp/assignment/lengthComparision/QuantityTest.java" />
         <option value="$PROJECT_DIR$/src/bootCamp/assignment/lengthComparision/Quantity.java" />
+        <option value="$PROJECT_DIR$/test/bootCamp/assignment/lengthComparision/QuantityTest.java" />
+        <option value="$PROJECT_DIR$/src/bootCamp/assignment/lengthComparision/Unit.java" />
+        <option value="$PROJECT_DIR$/src/bootCamp/assignment/measurementComparision/Unit.java" />
+        <option value="$PROJECT_DIR$/test/bootCamp/assignment/measurementComparision/QuantityTest.java" />
+        <option value="$PROJECT_DIR$/src/bootCamp/assignment/measurementComparision/Quantity.java" />
       </list>
     </option>
   </component>
@@ -113,13 +125,6 @@
               <item name="bootCamp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="assignment" type="462c0819:PsiDirectoryNode" />
-              <item name="lengthComparision" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bootCamp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bootCamp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assignment" type="462c0819:PsiDirectoryNode" />
               <item name="probability" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -145,7 +150,7 @@
               <item name="bootCamp" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="assignment" type="462c0819:PsiDirectoryNode" />
-              <item name="lengthComparision" type="462c0819:PsiDirectoryNode" />
+              <item name="measurementComparision" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bootCamp" type="b2602c69:ProjectViewProjectNode" />
@@ -173,7 +178,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553158996029" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553172741955" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="project.structure.last.edited" value="Project" />
@@ -203,81 +208,81 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.QuantityTest">
+  <component name="RunManager" selected="JUnit.QuantityTest.shouldConvertToOneTypeIfTypesAreSameButUnitsAreDifferent">
     <configuration name="QuantityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bootCamp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bootCamp.assignment.lengthComparision.*" />
+          <option name="PATTERN" value="bootCamp.assignment.measurementComparision.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="bootCamp.assignment.lengthComparision" />
-      <option name="MAIN_CLASS_NAME" value="bootCamp.assignment.lengthComparision.QuantityTest" />
+      <option name="PACKAGE_NAME" value="bootCamp.assignment.measurementComparision" />
+      <option name="MAIN_CLASS_NAME" value="bootCamp.assignment.measurementComparision.QuantityTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuantityTest.shouldReturnFalseForInvalidComparisionForFeetAndInch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="QuantityTest.shouldAddTwoLengthsOfSameType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bootCamp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bootCamp.assignment.lengthComparision.*" />
+          <option name="PATTERN" value="bootCamp.assignment.measurementComparision.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="bootCamp.assignment.lengthComparision" />
-      <option name="MAIN_CLASS_NAME" value="bootCamp.assignment.lengthComparision.QuantityTest" />
-      <option name="METHOD_NAME" value="shouldReturnFalseForInvalidComparisionForFeetAndInch" />
+      <option name="PACKAGE_NAME" value="bootCamp.assignment.measurementComparision" />
+      <option name="MAIN_CLASS_NAME" value="bootCamp.assignment.measurementComparision.QuantityTest" />
+      <option name="METHOD_NAME" value="shouldAddTwoLengthsOfSameType" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuantityTest.shouldReturnFalseForInvalidComparisionForInchAndCentimeter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="QuantityTest.shouldConvertToOneTypeIfTypesAreSameButUnitsAreDifferent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bootCamp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bootCamp.assignment.lengthComparision.*" />
+          <option name="PATTERN" value="bootCamp.assignment.measurementComparision.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="bootCamp.assignment.lengthComparision" />
-      <option name="MAIN_CLASS_NAME" value="bootCamp.assignment.lengthComparision.QuantityTest" />
-      <option name="METHOD_NAME" value="shouldReturnFalseForInvalidComparisionForInchAndCentimeter" />
+      <option name="PACKAGE_NAME" value="bootCamp.assignment.measurementComparision" />
+      <option name="MAIN_CLASS_NAME" value="bootCamp.assignment.measurementComparision.QuantityTest" />
+      <option name="METHOD_NAME" value="shouldConvertToOneTypeIfTypesAreSameButUnitsAreDifferent" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuantityTest.shouldReturnTrueForValidComparision" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="QuantityTest.shouldReturnFalseForDifferentTypesComparision" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bootCamp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bootCamp.assignment.lengthComparision.*" />
+          <option name="PATTERN" value="bootCamp.assignment.measurementComparision.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="bootCamp.assignment.lengthComparision" />
-      <option name="MAIN_CLASS_NAME" value="bootCamp.assignment.lengthComparision.QuantityTest" />
-      <option name="METHOD_NAME" value="shouldReturnTrueForValidComparision" />
+      <option name="PACKAGE_NAME" value="bootCamp.assignment.measurementComparision" />
+      <option name="MAIN_CLASS_NAME" value="bootCamp.assignment.measurementComparision.QuantityTest" />
+      <option name="METHOD_NAME" value="shouldReturnFalseForDifferentTypesComparision" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuantityTest.shouldReturnTrueForValidComparisionForFeetAndInch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="QuantityTest.shouldThrowExceptionForTwoLengthsOfDifferentType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bootCamp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bootCamp.assignment.lengthComparision.*" />
+          <option name="PATTERN" value="bootCamp.assignment.measurementComparision.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="bootCamp.assignment.lengthComparision" />
-      <option name="MAIN_CLASS_NAME" value="bootCamp.assignment.lengthComparision.QuantityTest" />
-      <option name="METHOD_NAME" value="shouldReturnTrueForValidComparisionForFeetAndInch" />
+      <option name="PACKAGE_NAME" value="bootCamp.assignment.measurementComparision" />
+      <option name="MAIN_CLASS_NAME" value="bootCamp.assignment.measurementComparision.QuantityTest" />
+      <option name="METHOD_NAME" value="shouldThrowExceptionForTwoLengthsOfDifferentType" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -285,11 +290,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.QuantityTest.shouldConvertToOneTypeIfTypesAreSameButUnitsAreDifferent" />
         <item itemvalue="JUnit.QuantityTest" />
-        <item itemvalue="JUnit.QuantityTest.shouldReturnFalseForInvalidComparisionForFeetAndInch" />
-        <item itemvalue="JUnit.QuantityTest.shouldReturnFalseForInvalidComparisionForInchAndCentimeter" />
-        <item itemvalue="JUnit.QuantityTest.shouldReturnTrueForValidComparisionForFeetAndInch" />
-        <item itemvalue="JUnit.QuantityTest.shouldReturnTrueForValidComparision" />
+        <item itemvalue="JUnit.QuantityTest.shouldThrowExceptionForTwoLengthsOfDifferentType" />
+        <item itemvalue="JUnit.QuantityTest.shouldAddTwoLengthsOfSameType" />
+        <item itemvalue="JUnit.QuantityTest.shouldReturnFalseForDifferentTypesComparision" />
       </list>
     </recent_temporary>
   </component>
@@ -307,34 +312,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="QuantityTest_shouldReturnFalseForInvalidComparisionForFeetAndInch - 2019.03.21 at 12h 32m 02s.xml">
-      <configuration name="QuantityTest.shouldReturnFalseForInvalidComparisionForFeetAndInch" configurationId="JUnit" />
+    <history-entry file="QuantityTest_shouldConvertToOneTypeIfTypesAreSameButUnitsAreDifferent - 2019.03.21 at 18h 12m 05s.xml">
+      <configuration name="QuantityTest.shouldConvertToOneTypeIfTypesAreSameButUnitsAreDifferent" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QuantityTest_shouldReturnFalseForInvalidComparisionForFeetAndInch - 2019.03.21 at 12h 32m 29s.xml">
-      <configuration name="QuantityTest.shouldReturnFalseForInvalidComparisionForFeetAndInch" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QuantityTest - 2019.03.21 at 12h 36m 14s.xml">
+    <history-entry file="QuantityTest - 2019.03.21 at 18h 13m 40s.xml">
       <configuration name="QuantityTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QuantityTest_shouldReturnFalseForInvalidComparisionForFeetAndInch - 2019.03.21 at 14h 09m 08s.xml">
-      <configuration name="QuantityTest.shouldReturnFalseForInvalidComparisionForFeetAndInch" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QuantityTest - 2019.03.21 at 14h 10m 11s.xml">
+    <history-entry file="QuantityTest - 2019.03.21 at 18h 15m 25s.xml">
       <configuration name="QuantityTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QuantityTest - 2019.03.21 at 14h 10m 31s.xml">
+    <history-entry file="QuantityTest - 2019.03.21 at 18h 16m 04s.xml">
       <configuration name="QuantityTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QuantityTest - 2019.03.21 at 14h 11m 12s.xml">
+    <history-entry file="QuantityTest - 2019.03.21 at 18h 16m 20s.xml">
       <configuration name="QuantityTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QuantityTest_shouldReturnFalseForInvalidComparisionForInchAndCentimeter - 2019.03.21 at 14h 16m 05s.xml">
-      <configuration name="QuantityTest.shouldReturnFalseForInvalidComparisionForInchAndCentimeter" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QuantityTest - 2019.03.21 at 14h 16m 10s.xml">
+    <history-entry file="QuantityTest - 2019.03.21 at 18h 16m 48s.xml">
       <configuration name="QuantityTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QuantityTest - 2019.03.21 at 14h 29m 23s.xml">
+    <history-entry file="QuantityTest - 2019.03.21 at 18h 16m 56s.xml">
+      <configuration name="QuantityTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QuantityTest - 2019.03.21 at 18h 19m 12s.xml">
+      <configuration name="QuantityTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QuantityTest - 2019.03.21 at 18h 19m 24s.xml">
+      <configuration name="QuantityTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QuantityTest - 2019.03.21 at 18h 19m 54s.xml">
       <configuration name="QuantityTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -342,16 +347,16 @@
     <frame x="0" y="22" width="1440" height="825" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2532189" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49795362" weight="0.2532189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Favorites" order="6" sideWeight="0.5020464" side_tool="true" weight="0.2532189" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3287858" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3287858" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -399,6 +404,32 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout-to-restore>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/bootCamp/assignment/measurementComparision/QuantityTest.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/bootCamp/assignment/probability/ProbabilityTest.java</url>
+          <line>15</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/bootCamp/assignment/measurementComparision/Quantity.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test/bootCamp/assignment/shapes">
@@ -462,16 +493,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/bootCamp/assignment/probability/ProbabilityTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-117">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/bootCamp/assignment/lengthComparision/LengthTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -482,33 +503,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bootCamp/assignment/lengthComparision/Unit.java">
+    <entry file="file://$PROJECT_DIR$/test/bootCamp/assignment/shapes/DimensionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="88">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/bootCamp/assignment/probability/ProbabilityTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5">
+          <caret column="40" lean-forward="true" selection-start-column="40" selection-end-column="40" />
           <folding>
-            <element signature="e#124#125#0" expanded="true" />
-            <element signature="e#158#159#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bootCamp/assignment/lengthComparision/Quantity.java">
+    <entry file="file://$PROJECT_DIR$/test/bootCamp/assignment/measurementComparision/QuantityTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/bootCamp/assignment/lengthComparision/QuantityTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+        <state relative-caret-position="270">
+          <caret line="91" column="50" selection-start-line="91" selection-start-column="50" selection-end-line="91" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bootCamp/assignment/measurementComparision/Unit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+          <folding>
+            <element signature="e#677#678#0" expanded="true" />
+            <element signature="e#722#723#0" expanded="true" />
+            <element signature="e#769#770#0" expanded="true" />
+            <element signature="e#810#811#0" expanded="true" />
+            <element signature="e#870#871#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bootCamp/assignment/measurementComparision/Quantity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
         </state>
       </provider>
     </entry>
