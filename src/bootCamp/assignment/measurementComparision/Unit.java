@@ -31,7 +31,7 @@ class Unit {
         return this.ratio * value;
     }
 
-    public double getRatio() {
+    double getRatio() {
         return ratio;
     }
 }
