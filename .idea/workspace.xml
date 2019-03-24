@@ -15,32 +15,7 @@
     <favorites_list name="bootCamp" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bootCamp/assignment/matrix/Matrix.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4">
-              <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/bootCamp/assignment/matrix/MatrixTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="571">
-              <caret line="98" column="1" lean-forward="true" selection-start-line="98" selection-start-column="1" selection-end-line="98" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -144,7 +119,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553426812750" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553431250867" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="project.structure.last.edited" value="Project" />
@@ -191,7 +166,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MatrixTest.shouldNotThrowAnException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MatrixTest.shouldAddValidMatrix" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bootCamp" />
       <extension name="coverage">
         <pattern>
@@ -201,13 +176,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="bootCamp.assignment.matrix" />
       <option name="MAIN_CLASS_NAME" value="bootCamp.assignment.matrix.MatrixTest" />
-      <option name="METHOD_NAME" value="shouldNotThrowAnException" />
+      <option name="METHOD_NAME" value="shouldAddValidMatrix" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MatrixTest.shouldReturnTheTransposeOfMatrix" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MatrixTest.shouldReturnTheMultiplicationOfMatrixWithItsTranspose" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bootCamp" />
       <extension name="coverage">
         <pattern>
@@ -217,13 +192,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="bootCamp.assignment.matrix" />
       <option name="MAIN_CLASS_NAME" value="bootCamp.assignment.matrix.MatrixTest" />
-      <option name="METHOD_NAME" value="shouldReturnTheTransposeOfMatrix" />
+      <option name="METHOD_NAME" value="shouldReturnTheMultiplicationOfMatrixWithItsTranspose" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MatrixTest.shouldReturnTheTransposeOfSingleNumberMatrix" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MatrixTest.shouldReturnTheMultiplicationOfNonSquareMatrix" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bootCamp" />
       <extension name="coverage">
         <pattern>
@@ -233,13 +208,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="bootCamp.assignment.matrix" />
       <option name="MAIN_CLASS_NAME" value="bootCamp.assignment.matrix.MatrixTest" />
-      <option name="METHOD_NAME" value="shouldReturnTheTransposeOfSingleNumberMatrix" />
+      <option name="METHOD_NAME" value="shouldReturnTheMultiplicationOfNonSquareMatrix" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MatrixTest.shouldThrowAnExceptionForInvalidMatrix" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MatrixTest.shouldReturnTheMultiplicationOfSingleRowAndSingleColumnMatrix" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bootCamp" />
       <extension name="coverage">
         <pattern>
@@ -249,7 +224,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="bootCamp.assignment.matrix" />
       <option name="MAIN_CLASS_NAME" value="bootCamp.assignment.matrix.MatrixTest" />
-      <option name="METHOD_NAME" value="shouldThrowAnExceptionForInvalidMatrix" />
+      <option name="METHOD_NAME" value="shouldReturnTheMultiplicationOfSingleRowAndSingleColumnMatrix" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -258,10 +233,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.MatrixTest" />
-        <item itemvalue="JUnit.MatrixTest.shouldReturnTheTransposeOfSingleNumberMatrix" />
-        <item itemvalue="JUnit.MatrixTest.shouldReturnTheTransposeOfMatrix" />
-        <item itemvalue="JUnit.MatrixTest.shouldThrowAnExceptionForInvalidMatrix" />
-        <item itemvalue="JUnit.MatrixTest.shouldNotThrowAnException" />
+        <item itemvalue="JUnit.MatrixTest.shouldAddValidMatrix" />
+        <item itemvalue="JUnit.MatrixTest.shouldReturnTheMultiplicationOfMatrixWithItsTranspose" />
+        <item itemvalue="JUnit.MatrixTest.shouldReturnTheMultiplicationOfSingleRowAndSingleColumnMatrix" />
+        <item itemvalue="JUnit.MatrixTest.shouldReturnTheMultiplicationOfNonSquareMatrix" />
       </list>
     </recent_temporary>
   </component>
@@ -279,40 +254,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MatrixTest - 2019.03.24 at 14h 52m 16s.xml">
+    <history-entry file="MatrixTest_shouldReturnTheMultiplicationOfNonSquareMatrix - 2019.03.24 at 17h 47m 31s.xml">
+      <configuration name="MatrixTest.shouldReturnTheMultiplicationOfNonSquareMatrix" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MatrixTest_shouldReturnTheMultiplicationOfNonSquareMatrix - 2019.03.24 at 17h 48m 40s.xml">
+      <configuration name="MatrixTest.shouldReturnTheMultiplicationOfNonSquareMatrix" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MatrixTest_shouldReturnTheMultiplicationOfNonSquareMatrix - 2019.03.24 at 17h 49m 21s.xml">
+      <configuration name="MatrixTest.shouldReturnTheMultiplicationOfNonSquareMatrix" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MatrixTest_shouldReturnTheMultiplicationOfNonSquareMatrix - 2019.03.24 at 17h 50m 23s.xml">
+      <configuration name="MatrixTest.shouldReturnTheMultiplicationOfNonSquareMatrix" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MatrixTest_shouldReturnTheMultiplicationOfSingleRowAndSingleColumnMatrix - 2019.03.24 at 17h 55m 06s.xml">
+      <configuration name="MatrixTest.shouldReturnTheMultiplicationOfSingleRowAndSingleColumnMatrix" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MatrixTest_shouldReturnTheMultiplicationOfMatrixWithItsTranspose - 2019.03.24 at 18h 03m 01s.xml">
+      <configuration name="MatrixTest.shouldReturnTheMultiplicationOfMatrixWithItsTranspose" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MatrixTest_shouldReturnTheMultiplicationOfMatrixWithItsTranspose - 2019.03.24 at 18h 03m 23s.xml">
+      <configuration name="MatrixTest.shouldReturnTheMultiplicationOfMatrixWithItsTranspose" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MatrixTest - 2019.03.24 at 18h 09m 15s.xml">
       <configuration name="MatrixTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MatrixTest_shouldThrowAnExceptionForInvalidMatrix - 2019.03.24 at 14h 52m 42s.xml">
-      <configuration name="MatrixTest.shouldThrowAnExceptionForInvalidMatrix" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MatrixTest - 2019.03.24 at 14h 52m 55s.xml">
+    <history-entry file="MatrixTest - 2019.03.24 at 18h 09m 55s.xml">
       <configuration name="MatrixTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MatrixTest - 2019.03.24 at 15h 21m 35s.xml">
-      <configuration name="MatrixTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MatrixTest - 2019.03.24 at 15h 21m 57s.xml">
-      <configuration name="MatrixTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MatrixTest - 2019.03.24 at 15h 28m 16s.xml">
-      <configuration name="MatrixTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MatrixTest - 2019.03.24 at 15h 39m 24s.xml">
-      <configuration name="MatrixTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MatrixTest - 2019.03.24 at 15h 41m 50s.xml">
-      <configuration name="MatrixTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MatrixTest - 2019.03.24 at 15h 42m 03s.xml">
-      <configuration name="MatrixTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MatrixTest - 2019.03.24 at 15h 42m 18s.xml">
+    <history-entry file="MatrixTest - 2019.03.24 at 18h 10m 57s.xml">
       <configuration name="MatrixTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="825" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49795362" weight="0.2532189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -562,20 +536,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bootCamp/assignment/matrix/Matrix.java">
+    <entry file="file://$PROJECT_DIR$/test/bootCamp/assignment/matrix/MatrixTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4">
-          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+        <state relative-caret-position="2781">
+          <caret line="196" column="1" selection-start-line="196" selection-start-column="1" selection-end-line="196" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/bootCamp/assignment/matrix/MatrixTest.java">
+    <entry file="file://$PROJECT_DIR$/src/bootCamp/assignment/matrix/Matrix.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="98" column="1" lean-forward="true" selection-start-line="98" selection-start-column="1" selection-end-line="98" selection-end-column="1" />
+        <state relative-caret-position="176">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

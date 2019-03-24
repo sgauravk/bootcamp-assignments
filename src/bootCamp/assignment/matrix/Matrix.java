@@ -2,6 +2,7 @@ package bootCamp.assignment.matrix;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 class Matrix {
     private List<List<Double>> matrix;
@@ -25,10 +26,21 @@ class Matrix {
         int numOfRowInSecond = anotherMatrix.matrix.size();
 
         int numOfColumnInFirst = this.matrix.get(0).size();
-        int numOfColumnInSecond = this.matrix.get(0).size();
+        int numOfColumnInSecond = anotherMatrix.matrix.get(0).size();
 
         if (numOfRowInFirst != numOfRowInSecond || numOfColumnInFirst != numOfColumnInSecond) {
             throw new Exception("matrix can not be add");
+        }
+    }
+
+
+    private void validateMatrixForMultiplication(Matrix anotherMatrix) throws Exception {
+        int numOfRowInFirst = this.matrix.get(0).size();
+
+        int numOfColumnInSecond = anotherMatrix.matrix.size();
+
+        if (numOfRowInFirst != numOfColumnInSecond) {
+            throw new Exception("matrix can not be multiply");
         }
     }
 
@@ -59,50 +71,88 @@ class Matrix {
     }
 
 
-    private List<Double> calculateColumn(int columnNum) {
-        List<Double> column = new ArrayList<>(this.matrix.get(0).size());
+    private double multiplyRow(List<Double> row, List<Double> column) {
+        double result = 0;
 
-        this.matrix.forEach(row -> column.add(row.get(columnNum)));
+        for (int i = 0; i < row.size(); i++) {
+            result += row.get(i) * column.get(i);
+        }
+        return result;
+    }
+
+
+    private List<Double> calculateColumn(List<List<Double>> matrix, int columnNum) {
+        List<Double> column = new ArrayList<>(matrix.get(0).size());
+
+        matrix.forEach(row -> column.add(row.get(columnNum)));
         return column;
     }
 
 
-    List<List<Double>> add(Matrix anotherMatrix) throws Exception {
+    Matrix add(Matrix anotherMatrix) throws Exception {
         validateMatrixForAddition(anotherMatrix);
 
         List<List<Double>> addition = new ArrayList<>(this.matrix.size());
         for (int i = 0; i < this.matrix.size(); i++) {
             addition.add(addRow(this.matrix.get(i), anotherMatrix.matrix.get(i)));
         }
-        return addition;
+        return new Matrix(addition);
     }
 
 
-    List<List<Double>> subtract(Matrix anotherMatrix) throws Exception {
+    Matrix subtract(Matrix anotherMatrix) throws Exception {
         validateMatrixForAddition(anotherMatrix);
 
         List<List<Double>> subtraction = new ArrayList<>(this.matrix.size());
         for (int i = 0; i < this.matrix.size(); i++) {
             subtraction.add(subtractRow(this.matrix.get(i), anotherMatrix.matrix.get(i)));
         }
-        return subtraction;
+        return new Matrix(subtraction);
     }
 
 
-    List<List<Double>> multiply(double multiplier) {
+    Matrix multiply(double multiplier) throws Exception {
         List<List<Double>> result = new ArrayList<>(this.matrix.size());
 
         this.matrix.forEach(row -> result.add(multiplyRow(multiplier, row)));
+        return new Matrix(result);
+    }
+
+
+    Matrix transpose() throws Exception {
+        List<List<Double>> transpose = new ArrayList<>(this.matrix.get(0).size());
+
+        for (int i = 0; i < this.matrix.get(0).size(); i++) {
+            transpose.add(calculateColumn(this.matrix, i));
+        }
+        return new Matrix(transpose);
+    }
+
+
+    private List<Double> getRowAfterMultiplication(List<Double> row, Matrix matrix) {
+        List<Double> result = new ArrayList<>(matrix.matrix.get(0).size());
+
+        for (int i = 0; i < matrix.matrix.get(0).size(); i++) {
+            result.add(multiplyRow(row, calculateColumn(matrix.matrix, i)));
+        }
         return result;
     }
 
 
-    List<List<Double>> transpose() {
-        List<List<Double>> transpose = new ArrayList<>(this.matrix.get(0).size());
+    Matrix multiply(Matrix anotherMatrix) throws Exception {
+        validateMatrixForMultiplication(anotherMatrix);
 
-        for (int i = 0; i < this.matrix.get(0).size(); i++) {
-            transpose.add(calculateColumn(i));
-        }
-        return transpose;
+        List<List<Double>> result = new ArrayList<>(this.matrix.size());
+        this.matrix.forEach(row -> result.add(getRowAfterMultiplication(row, anotherMatrix)));
+        return new Matrix(result);
+    }
+
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Matrix)) return false;
+        Matrix matrix1 = (Matrix) o;
+        return Objects.equals(matrix, matrix1.matrix);
     }
 }
