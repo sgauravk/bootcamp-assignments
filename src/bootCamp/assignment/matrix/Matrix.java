@@ -59,6 +59,14 @@ class Matrix {
     }
 
 
+    private List<Double> calculateColumn(int columnNum) {
+        List<Double> column = new ArrayList<>(this.matrix.get(0).size());
+
+        this.matrix.forEach(row -> column.add(row.get(columnNum)));
+        return column;
+    }
+
+
     List<List<Double>> add(Matrix anotherMatrix) throws Exception {
         validateMatrixForAddition(anotherMatrix);
 
@@ -86,5 +94,15 @@ class Matrix {
 
         this.matrix.forEach(row -> result.add(multiplyRow(multiplier, row)));
         return result;
+    }
+
+
+    List<List<Double>> transpose() {
+        List<List<Double>> transpose = new ArrayList<>(this.matrix.get(0).size());
+
+        for (int i = 0; i < this.matrix.get(0).size(); i++) {
+            transpose.add(calculateColumn(i));
+        }
+        return transpose;
     }
 }

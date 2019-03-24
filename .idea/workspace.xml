@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b37bee1c-d0d5-4713-8157-73f82e3d1e64" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bootCamp/bootCamp/assignment/measurementComparision/Quantity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bootCamp/bootCamp/assignment/measurementComparision/Quantity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bootCamp/bootCamp/assignment/measurementComparision/Unit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bootCamp/bootCamp/assignment/measurementComparision/Unit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/bootCamp/bootCamp/assignment/measurementComparision/QuantityTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/bootCamp/bootCamp/assignment/measurementComparision/QuantityTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bootCamp/assignment/measurementComparision/Quantity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bootCamp/assignment/measurementComparision/Quantity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bootCamp/assignment/measurementComparision/Unit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bootCamp/assignment/measurementComparision/Unit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/bootCamp/assignment/measurementComparision/QuantityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/bootCamp/assignment/measurementComparision/QuantityTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bootCamp/assignment/matrix/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bootCamp/assignment/matrix/Matrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/bootCamp/assignment/matrix/MatrixTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/bootCamp/assignment/matrix/MatrixTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +19,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bootCamp/assignment/matrix/Matrix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="554">
-              <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
+            <state relative-caret-position="4">
+              <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,8 +31,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/bootCamp/assignment/matrix/MatrixTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="554">
-              <caret line="76" column="1" lean-forward="true" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="1" />
+            <state relative-caret-position="571">
+              <caret line="98" column="1" lean-forward="true" selection-start-line="98" selection-start-column="1" selection-end-line="98" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -149,7 +144,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553422331671" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553426812750" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="project.structure.last.edited" value="Project" />
@@ -212,6 +207,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MatrixTest.shouldReturnTheTransposeOfMatrix" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bootCamp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bootCamp.assignment.matrix.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bootCamp.assignment.matrix" />
+      <option name="MAIN_CLASS_NAME" value="bootCamp.assignment.matrix.MatrixTest" />
+      <option name="METHOD_NAME" value="shouldReturnTheTransposeOfMatrix" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MatrixTest.shouldReturnTheTransposeOfSingleNumberMatrix" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bootCamp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bootCamp.assignment.matrix.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bootCamp.assignment.matrix" />
+      <option name="MAIN_CLASS_NAME" value="bootCamp.assignment.matrix.MatrixTest" />
+      <option name="METHOD_NAME" value="shouldReturnTheTransposeOfSingleNumberMatrix" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MatrixTest.shouldThrowAnExceptionForInvalidMatrix" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bootCamp" />
       <extension name="coverage">
@@ -228,44 +255,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuantityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="bootCamp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bootCamp.assignment.measurementComparision.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bootCamp.assignment.measurementComparision" />
-      <option name="MAIN_CLASS_NAME" value="bootCamp.assignment.measurementComparision.QuantityTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QuantityTest.shouldCompare212FahrenheitWith100Celsius" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="bootCamp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bootCamp.assignment.measurementComparision.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bootCamp.assignment.measurementComparision" />
-      <option name="MAIN_CLASS_NAME" value="bootCamp.assignment.measurementComparision.QuantityTest" />
-      <option name="METHOD_NAME" value="shouldCompare212FahrenheitWith100Celsius" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.MatrixTest" />
+        <item itemvalue="JUnit.MatrixTest.shouldReturnTheTransposeOfSingleNumberMatrix" />
+        <item itemvalue="JUnit.MatrixTest.shouldReturnTheTransposeOfMatrix" />
         <item itemvalue="JUnit.MatrixTest.shouldThrowAnExceptionForInvalidMatrix" />
         <item itemvalue="JUnit.MatrixTest.shouldNotThrowAnException" />
-        <item itemvalue="JUnit.QuantityTest" />
-        <item itemvalue="JUnit.QuantityTest.shouldCompare212FahrenheitWith100Celsius" />
       </list>
     </recent_temporary>
   </component>
@@ -283,18 +279,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MatrixTest - 2019.03.24 at 14h 47m 30s.xml">
-      <configuration name="MatrixTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MatrixTest - 2019.03.24 at 14h 48m 32s.xml">
-      <configuration name="MatrixTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MatrixTest - 2019.03.24 at 14h 49m 03s.xml">
-      <configuration name="MatrixTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MatrixTest - 2019.03.24 at 14h 50m 42s.xml">
-      <configuration name="MatrixTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MatrixTest - 2019.03.24 at 14h 52m 16s.xml">
       <configuration name="MatrixTest" configurationId="JUnit" />
     </history-entry>
@@ -311,6 +295,18 @@
       <configuration name="MatrixTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="MatrixTest - 2019.03.24 at 15h 28m 16s.xml">
+      <configuration name="MatrixTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MatrixTest - 2019.03.24 at 15h 39m 24s.xml">
+      <configuration name="MatrixTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MatrixTest - 2019.03.24 at 15h 41m 50s.xml">
+      <configuration name="MatrixTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MatrixTest - 2019.03.24 at 15h 42m 03s.xml">
+      <configuration name="MatrixTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MatrixTest - 2019.03.24 at 15h 42m 18s.xml">
       <configuration name="MatrixTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -568,8 +564,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bootCamp/assignment/matrix/Matrix.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
+        <state relative-caret-position="4">
+          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -578,8 +574,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/bootCamp/assignment/matrix/MatrixTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="76" column="1" lean-forward="true" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="1" />
+        <state relative-caret-position="571">
+          <caret line="98" column="1" lean-forward="true" selection-start-line="98" selection-start-column="1" selection-end-line="98" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
