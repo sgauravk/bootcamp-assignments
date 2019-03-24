@@ -86,10 +86,55 @@ class QuantityTest {
 
     @Test
     void shouldConvertToOneTypeIfTypesAreSameButUnitsAreDifferent() throws Exception {
-        Quantity oneInches = new Quantity(1, Unit.INCH);
+        Quantity oneInch = new Quantity(1, Unit.INCH);
         Quantity twentyFiveMm = new Quantity(25, Unit.MILLIMETER);
-        Quantity actualQuantity = oneInches.add(twentyFiveMm);
+        Quantity actualQuantity = oneInch.add(twentyFiveMm);
         Quantity expectedQuantity = new Quantity(2, Unit.INCH);
         assertEquals(expectedQuantity, actualQuantity);
+    }
+
+    @Test
+    void shouldAddTwoPointFiveCmWithTwoInches() throws Exception {
+        Quantity twoInches = new Quantity(2, Unit.INCH);
+        Quantity twoPointFiveCm = new Quantity(2.5D, Unit.CENTIMETER);
+        Quantity actualQuantity = twoInches.add(twoPointFiveCm);
+        Quantity expectedQuantity = new Quantity(3, Unit.INCH);
+        assertEquals(expectedQuantity, actualQuantity);
+    }
+
+    @Test
+    void shouldAddTwoInchesWithTwoPointFiveCm() throws Exception {
+        Quantity twoInches = new Quantity(2, Unit.INCH);
+        Quantity twoPointFiveCm = new Quantity(2.5D, Unit.CENTIMETER);
+        Quantity actualQuantity = twoPointFiveCm.add(twoInches);
+        Quantity expectedQuantity = new Quantity(3, Unit.INCH);
+        assertEquals(expectedQuantity, actualQuantity);
+    }
+
+
+    @Test
+    void shouldAddOneFeetWithTwoInches() throws Exception {
+        Quantity twoFeet = new Quantity(2, Unit.FEET);
+        Quantity twoInches = new Quantity(2, Unit.INCH);
+        Quantity actualQuantity = twoFeet.add(twoInches);
+        Quantity expectedQuantity = new Quantity(26, Unit.INCH);
+        assertEquals(expectedQuantity, actualQuantity);
+    }
+
+    @Test
+    void shouldAddOneGallonWithOneLiter() throws Exception {
+        Quantity OneGallon = new Quantity(100, Unit.GALLON);
+        Quantity OneLiter = new Quantity(1, Unit.LITER);
+        Quantity actualQuantity = OneGallon.add(OneLiter);
+        Quantity expectedQuantity = new Quantity(379, Unit.LITER);
+        assertEquals(expectedQuantity, actualQuantity);
+    }
+
+    @Test
+    void shouldCompare212FahrenheitWith100Celsius() throws Exception {
+
+        Quantity hundredCelsius = new Quantity(100, Unit.CELSIUS);
+        Quantity twoOneTwoFahrenheit = new Quantity(212, Unit.FAHRENHEIT);
+        assertEquals(hundredCelsius, twoOneTwoFahrenheit);
     }
 }

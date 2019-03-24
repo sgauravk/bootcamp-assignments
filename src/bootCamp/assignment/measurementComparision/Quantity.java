@@ -1,8 +1,10 @@
 package bootCamp.assignment.measurementComparision;
 
 class Quantity {
+
     private Unit unit;
     private double value;
+
 
     Quantity(double value, Unit unit) {
         this.unit = unit;
@@ -17,16 +19,26 @@ class Quantity {
         double quantityValue = ((Quantity) o).value;
         if (!quantityUnit.isSameType(this.unit)) return false;
         double baseValue = this.unit.convertToBaseValue(this.value);
+        System.out.println(quantityUnit.convertToBaseValue(quantityValue));
+        System.out.println(baseValue);
         return baseValue == quantityUnit.convertToBaseValue(quantityValue);
     }
 
+
     Quantity add(Quantity quantity) throws Exception {
-        if (!quantity.unit.isSameType(this.unit)) {
-            throw new Exception("type is not same");
+        if (!this.unit.isSameType(quantity.unit)) {
+            throw new Exception("invalid type"); //needs to change.
         }
-        double quantityBaseValue = quantity.unit.convertToBaseValue(quantity.value);
-        double ownBaseValue = this.unit.convertToBaseValue(this.value);
-        double sum = (ownBaseValue + quantityBaseValue) / this.unit.getRatio();
-        return new Quantity(sum, this.unit);
+        Unit standardUnit = this.unit.getStandardUnit();
+
+        double thisQuantityValue = this.unit.convertTo(standardUnit, this.value);
+        Quantity thisQuantity =  new Quantity(thisQuantityValue, standardUnit);
+
+        double anotherQuantityValue = quantity.unit.convertTo(standardUnit, quantity.value);
+        Quantity anotherQuantity = new Quantity(anotherQuantityValue, standardUnit);
+
+        double valueInStandardUnit = thisQuantity.value + anotherQuantity.value;
+        return new Quantity(valueInStandardUnit, standardUnit);
     }
 }
+
